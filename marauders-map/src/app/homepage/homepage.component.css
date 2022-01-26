@@ -1,0 +1,10 @@
+.background {
+  background-image: url("../../assets/tile.PNG");
+  background-repeat: repeat;
+}
+
+.intro-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

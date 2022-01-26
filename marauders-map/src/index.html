@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Marauder's Map</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+    let sign = "";
+    while (sign === "" || sign === null) {
+      sign = prompt("What's your name?")
+    }
+    localStorage.setItem("name", sign.toLowerCase());
+    console.log(sign);
+  });
+</script>

@@ -1,0 +1,24 @@
+{
+  "live-feed": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": ["74.89564519960474", "32.69323212274529"]
+        },
+        "properties": {
+          "message": "PP"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": ["74.843813", "32.724462" ]
+        },
+        "properties": {
+          "message": "Abhishek"
+        }
+      }
+    ]
+}
